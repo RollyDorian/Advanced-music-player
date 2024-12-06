@@ -288,7 +288,7 @@ class AudioApp(QWidget):
         self.decay_slider = QSlider(Qt.Orientation.Horizontal, self)
         self.decay_slider.setMinimum(0)
         self.decay_slider.setMaximum(100)
-        self.decay_slider.setValue(50)
+        self.decay_slider.setValue(0)
         self.decay_slider.valueChanged.connect(self.update_decay)
         self.decay_slider.move(540, 140)
         self.decay_label.move(540, 160)
